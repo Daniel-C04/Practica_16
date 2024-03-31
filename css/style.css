@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: hsl(0, 0%, 98%);
+  margin: auto;
+  padding: 0 2rem;
+  font-family: "Poppins", sans-serif;
+  padding-top: 7rem;
+}
+body main {
+  max-width: 380px;
+  min-width: 300px;
+  margin: auto;
+}
+
+.section-first {
+  text-align: center;
+  margin-bottom: 6rem;
+}
+.section-first h1 {
+  color: hsl(229, 6%, 66%);
+  font-size: 2.5rem;
+  font-weight: 200;
+  margin-bottom: 0.5rem;
+}
+.section-first h2 {
+  color: hsl(234, 12%, 34%);
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  font-size: 2.5rem;
+}
+.section-first p {
+  color: hsl(229, 6%, 66%);
+  font-size: 15.5px;
+}
+
+.card {
+  border-radius: 0.8rem;
+  margin: 4rem 0;
+  padding: 2rem 3rem;
+  box-shadow: 2px 8px 18px -4px hsl(229, 6%, 66%);
+}
+.card h2 {
+  color: hsl(234, 12%, 34%);
+  margin-bottom: 0.5rem;
+  font-size: 2.3rem;
+}
+.card p {
+  color: hsl(229, 6%, 66%);
+  margin-bottom: 4rem;
+  font-size: 13.5px;
+  line-height: 3rem;
+}
+.card figure {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 1.5rem;
+}
+
+section:nth-child(2) {
+  border-top: 6px solid hsl(180, 62%, 55%);
+}
+
+section:nth-child(3) {
+  border-top: 6px solid hsl(0, 78%, 62%);
+}
+
+section:nth-child(4) {
+  border-top: 6px solid hsl(34, 97%, 64%);
+}
+
+section:nth-child(5) {
+  border-top: 6px solid hsl(212, 86%, 64%);
+}
+
+footer {
+  margin: 3rem 0;
+}
+footer .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+footer .attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 1224px) {
+  body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  body main {
+    margin: 0;
+    height: 850px;
+    transform: translateX(-50px);
+  }
+  .section-first {
+    width: 550px;
+  }
+  .section-first h1, .section-first h2 {
+    font-size: 3.8rem;
+  }
+  .card {
+    width: 350px;
+  }
+  .card p {
+    font-size: 14px;
+  }
+  section:nth-child(2) {
+    transform: translate(-310px, 160px);
+  }
+  section:nth-child(3) {
+    transform: translate(90px, -280px);
+  }
+  section:nth-child(4) {
+    transform: translate(90px, -280px);
+  }
+  section:nth-child(5) {
+    transform: translate(480px, -750px);
+  }
+  footer {
+    margin-left: 4rem;
+  }
+}/*# sourceMappingURL=style.css.map */
